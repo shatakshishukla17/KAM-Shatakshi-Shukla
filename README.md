@@ -5,24 +5,24 @@ This is a web-based lead management system designed for Udaan's B2B e-commerce p
 
 ## Features
 
-#### Lead Management
+### Lead Management
 - Create and manage restaurant leads with detailed information
 - Track essential details including restaurant name, address, contact information
 - Monitor lead status (New, Active, Inactive)
 - Assign leads to specific KAMs
 
-#### Contact Management
+### Contact Management
 - Store multiple contacts per restaurant
 - Maintain contact details including name, role, phone number, and email
 - Support different role types (Owner, Manager, Staff)
 
-#### Interaction Tracking
+### Interaction Tracking
 - Log various types of interactions (Calls, Visits, Orders)
 - Record interaction dates and detailed notes
 - Flag interactions requiring follow-up
 - Maintain a chronological history of all lead interactions
 
-#### Dashboard Features
+### Dashboard Features
 - View comprehensive list of all leads
 - Track pending calls for the day
 - Monitor recent interactions
@@ -146,6 +146,26 @@ CREATE TABLE interactions (
 - `GET /api/interactions/recent`: Get recent interactions
 - `POST /api/interactions`: Add new interaction
 
+## Snapshots of Project
+
+### Landing page:
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/c70f3c24-ac93-4075-a4db-a6d22fd7aa47" />
+
+### Dashboard:
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/6b951967-83e6-4fc3-bfd5-35448867e2c7" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/151fdda1-8886-441f-a36a-314113d86173" />
+#### When we search for a particular Restaurant:
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/e60be2b5-917a-4989-9313-6450bb0028f6" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/f950dfe4-ccf9-4fe4-8841-5015d1cc048a" />
+
+### Leads list, Contact tracking and Basic Interaction Logging:
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/ec58a407-4dad-4745-b3c8-a011065e5b7b" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/f01c4427-0898-463f-bd53-66c545dbb91d" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/4f482329-ece2-406a-ba8f-2db4f02f57bd" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/f2f774ac-a318-4b23-87f9-62061b9c60bb" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/4a963839-c0c8-4ae2-9de3-2024efb62478" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/e2afa5c0-5027-4738-a7b1-357f2fbf9bc9" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/cf66f161-658c-4bdb-b27d-5da2cfd48e0d" />
 
 ## Contact
 For any inquiries, please contact [shatakshi1712@gmail.com](mailto:shatakshi1712@gmail.com).
