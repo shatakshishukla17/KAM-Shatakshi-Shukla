@@ -154,6 +154,7 @@ CREATE TABLE interactions (
 ### Dashboard:
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/6b951967-83e6-4fc3-bfd5-35448867e2c7" />
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/151fdda1-8886-441f-a36a-314113d86173" />
+
 #### When we search for a particular Restaurant:
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/e60be2b5-917a-4989-9313-6450bb0028f6" />
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/f950dfe4-ccf9-4fe4-8841-5015d1cc048a" />
