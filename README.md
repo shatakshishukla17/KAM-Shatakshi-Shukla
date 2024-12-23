@@ -162,7 +162,7 @@ CREATE TABLE interactions (
 ### Leads list, Contact tracking and Basic Interaction Logging:
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/ec58a407-4dad-4745-b3c8-a011065e5b7b" />
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/f01c4427-0898-463f-bd53-66c545dbb91d" />
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/4f482329-ece2-406a-ba8f-2db4f02f57bd" />
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/20caafd9-cf07-44c0-bd05-7592cdc633b1" />
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/f2f774ac-a318-4b23-87f9-62061b9c60bb" />
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/4a963839-c0c8-4ae2-9de3-2024efb62478" />
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/e2afa5c0-5027-4738-a7b1-357f2fbf9bc9" />
