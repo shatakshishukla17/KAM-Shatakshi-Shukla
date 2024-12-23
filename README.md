@@ -121,7 +121,7 @@ CREATE TABLE interactions (
 
 5. **Start the Server**
    ```bash
-   npm start
+   node server.js
    ```
    The application will be available at `http://localhost:3000`
 
