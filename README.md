@@ -5,29 +5,30 @@ This is a web-based lead management system designed for Udaan's B2B e-commerce p
 
 ## Features
 
-### Lead Management
+#### Lead Management
 - Create and manage restaurant leads with detailed information
 - Track essential details including restaurant name, address, contact information
 - Monitor lead status (New, Active, Inactive)
 - Assign leads to specific KAMs
 
-### Contact Management
+#### Contact Management
 - Store multiple contacts per restaurant
 - Maintain contact details including name, role, phone number, and email
 - Support different role types (Owner, Manager, Staff)
 
-### Interaction Tracking
+#### Interaction Tracking
 - Log various types of interactions (Calls, Visits, Orders)
 - Record interaction dates and detailed notes
 - Flag interactions requiring follow-up
 - Maintain a chronological history of all lead interactions
 
-### Dashboard Features
+#### Dashboard Features
 - View comprehensive list of all leads
 - Track pending calls for the day
 - Monitor recent interactions
 - Implement real-time search functionality
 - Display key metrics and statistics
+
 
 ## Technical Architecture
 
@@ -144,6 +145,7 @@ CREATE TABLE interactions (
 - `GET /api/interactions/pending`: Get pending calls
 - `GET /api/interactions/recent`: Get recent interactions
 - `POST /api/interactions`: Add new interaction
+
 
 ## Contact
 For any inquiries, please contact [shatakshi1712@gmail.com](mailto:shatakshi1712@gmail.com).
