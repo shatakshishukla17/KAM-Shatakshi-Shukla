@@ -154,18 +154,19 @@ We've implemented a classic 3-tier architecture:
 - For the frontend, we're using HTML/CSS/JavaScript with Bootstrap
 - Our backend is built on Node.js with Express.js
 - And we're using MySQL as our database
-The key advantages of this architecture are:
+  <br>
+<b>The key advantages of this architecture are:</b>
 - Clear separation of concerns
 - RESTful API design for scalability
 - Modular component structure
 - Easy maintenance and updates
 Here's a visual representation of our architecture:
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/98b2d91c-698c-4b70-95d1-dcff73954418" />
-Let me break down each layer of our architecture:
-1. Client Layer
-- This is where our users interact with the system through web browsers
-2. Load Balancing Layer
-- The load balancer is like a traffic controller it distributes their requests evenly between our API servers
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/98b2d91c-698c-4b70-95d1-dcff73954418" />
+Let me break down each layer of our architecture:<br>
+1. Client Layer <br>
+- This is where our users interact with the system through web browsers<br>
+2. Load Balancing Layer<br>
+- The load balancer is like a traffic controller it distributes their requests evenly between our API servers<br>
 - If one server fails, it automatically routes traffic to healthy servers
 3. Application Layer
 - Multiple API servers running our Node.js application
