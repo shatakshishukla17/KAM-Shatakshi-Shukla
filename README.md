@@ -94,6 +94,8 @@ CREATE TABLE interactions (
   FOREIGN KEY (lead_id) REFERENCES leads(id) ON DELETE CASCADE
 )
 ```
+### MySQL SnapShot:
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/aa2fe55b-2a7c-48d0-a36e-5310e27b3443" />
 
 ## Setup Instructions
 
@@ -172,8 +174,6 @@ CREATE TABLE interactions (
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/e2afa5c0-5027-4738-a7b1-357f2fbf9bc9" />
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/cf66f161-658c-4bdb-b27d-5da2cfd48e0d" />
 
-### MySQL:
-<img width="800" alt="image" src="https://github.com/user-attachments/assets/aa2fe55b-2a7c-48d0-a36e-5310e27b3443" />
 
 ## Contact
 For any inquiries, please contact [shatakshi1712@gmail.com](mailto:shatakshi1712@gmail.com).
