@@ -146,6 +146,68 @@ CREATE TABLE interactions (
 - `GET /api/interactions/recent`: Get recent interactions
 - `POST /api/interactions`: Add new interaction
 
+## Answering all the System Design & Data modelling questions and discussing edge cases:
+### System Design Questions:
+#### How would you design the overall architecture?
+Let me explain our architectural decisions:
+We've implemented a classic 3-tier architecture:
+- For the frontend, we're using HTML/CSS/JavaScript with Bootstrap
+- Our backend is built on Node.js with Express.js
+- And we're using MySQL as our database
+The key advantages of this architecture are:
+- Clear separation of concerns
+- RESTful API design for scalability
+- Modular component structure
+- Easy maintenance and updates
+Here's a visual representation of our architecture:
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/98b2d91c-698c-4b70-95d1-dcff73954418" />
+Let me break down each layer of our architecture:
+1. Client Layer
+- This is where our users interact with the system through web browsers
+2. Load Balancing Layer
+- The load balancer is like a traffic controller it distributes their requests evenly between our API servers
+- If one server fails, it automatically routes traffic to healthy servers
+3. Application Layer
+- Multiple API servers running our Node.js application
+- Each server handles requests like creating leads, logging interactions, or fetching data
+- They're identical copies, so if one fails, others can take over
+4. Caching Layer (Redis)
+- We cache frequently accessed data like:
+                Active lead lists
+                Today's pending calls
+                KAM dashboards
+- This reduces database load and improves response times
+5. Message Queue (RabbitMQ)
+- Handles time-consuming tasks asynchronously
+- Examples include:
+    Sending email notifications
+    Generating reports
+    Updating search indexes
+- Ensures system stays responsive during heavy operations
+6. Worker Layer
+- Dedicated servers that process jobs from the message queue
+- Handle background tasks without affecting user experience
+- Can be scaled up during peak hours
+7. Search Layer (Elasticsearch)
+- Enables complex searches across:
+      Restaurant names
+      Addresses
+      Contact information
+      Interaction history
+    Database Layer
+8. Master database handles all write operations
+- Multiple slave databases for read operations
+- If the master fails, a slave can be promoted to master
+- Regular backups and data replication for reliability
+This architecture allows us to:
+- Handle thousands of concurrent users
+- Process millions of interactions
+- Provide fast search results
+- Maintain system reliability
+- Scale individual components as needed
+
+
+
 ## Snapshots of Project
 
 ### Landing page:
